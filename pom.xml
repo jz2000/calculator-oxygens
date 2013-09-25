@@ -1,0 +1,12 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.oxygens.calculator</groupId>
+  <artifactId>oxygens-calculator-root</artifactId> 
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+    <modules>
+        <module>service</module>
+        <module>servlet-client</module>
+    </modules>
+</project>
