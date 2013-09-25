@@ -16,25 +16,26 @@ public class CalculatorServletIT extends SeleneseTestCase {
     }
 
     @Test
-    public void testNew() throws Exception {
+    public void test246() throws Exception {
         selenium.open("/");
         selenium.click("link=C");
-        selenium.waitForPageToLoad("300");
+        selenium.waitForPageToLoad("3000");
         selenium.click("link=1");
-        selenium.waitForPageToLoad("300");
+        selenium.waitForPageToLoad("3000");
         selenium.click("link=2");
-        selenium.waitForPageToLoad("300");
+        selenium.waitForPageToLoad("3000");
         selenium.click("link=3");
-        selenium.waitForPageToLoad("300");
+        selenium.waitForPageToLoad("3000");
         selenium.click("link=+");
-        selenium.waitForPageToLoad("300");
+        selenium.waitForPageToLoad("3000");
         selenium.click("link=1");
-        selenium.waitForPageToLoad("300");
+        selenium.waitForPageToLoad("3000");
         selenium.click("link=2");
-        selenium.waitForPageToLoad("300");
+        selenium.waitForPageToLoad("3000");
         selenium.click("link=3");
-        selenium.waitForPageToLoad("300");
+        selenium.waitForPageToLoad("3000");
         selenium.click("link==");
+        selenium.waitForPageToLoad("3000");
         assertTrue(selenium.isTextPresent("246"));
         // These are the real test steps
     }
